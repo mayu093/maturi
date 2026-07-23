@@ -76,7 +76,7 @@ export default function MikagamiPage() {
       <header className={scrolled ? "scrolled" : ""}>
         <div className="logo">
           水鏡の夏夜祭
-          <span className="en">— MIKAGAMI —</span>
+          <span className="en">— MIZUKAGAMI —</span>
         </div>
         <nav>
           <div className="links">
@@ -237,12 +237,9 @@ export default function MikagamiPage() {
           </div>
         </div>
         <div className="footer-notes">
-          <p>
-            ドレスコード：浴衣または青・白の装いを推奨しております ／
-            雨天決行・荒天中止
-          </p>
+          <p>雨天決行・荒天中止</p>
           <div className="copyright">
-            © 2026 水鏡の夏夜祭実行委員会 — MIKAGAMI ALL RIGHTS RESERVED.
+            © 2026 水鏡の夏夜祭実行委員会 — MIZUKAGAMI ALL RIGHTS RESERVED.
           </div>
         </div>
       </footer>
