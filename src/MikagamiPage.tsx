@@ -75,7 +75,7 @@ export default function MikagamiPage() {
 
       <header className={scrolled ? "scrolled" : ""}>
         <div className="logo">
-          水鏡の夏夜祭
+          <span className="logo-title">水鏡の夏夜祭</span>
           <span className="en">— MIZUKAGAMI —</span>
         </div>
         <nav>
