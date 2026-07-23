@@ -102,7 +102,7 @@ export default function MikagamiPage() {
       <section id="hero">
         <p className="eyebrow">2026.08.01 SAT — 常滑りんくうビーチ</p>
         <h1>
-          水面に沈む月と、揺れる光。
+          夜空を覆う大輪と、揺らめく水光。
           <br />
           <span className="accent">今夜、大人の夏</span>がひらく。
         </h1>
@@ -196,7 +196,7 @@ export default function MikagamiPage() {
               </div>
             </div>
             <div className="access-row">
-              <div className="label">お車</div>
+              <div className="label">車</div>
               <div className="value">
                 知多横断道路「りんくうIC」よりすぐ
                 <br />
