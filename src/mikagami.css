@@ -169,7 +169,7 @@
       rgba(243, 198, 143, 0.08),
       transparent 70%
     ),
-    url("ChatGPT Image 2026年7月24日 05_01_53.png");
+    url("/ChatGPT Image 2026年7月24日 05_01_53.png");
   background-size: cover;
   background-position: center 30%;
   overflow: hidden;
@@ -306,7 +306,7 @@
   transform: translateX(-50%);
   width: min(1000px, 150%);
   aspect-ratio: 1536 / 1024;
-  background-image: url("ChatGPT Image 2026年7月24日 05_06_54.png");
+  background-image: url("/ChatGPT Image 2026年7月24日 05_06_54.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -532,7 +532,7 @@
       rgba(5, 8, 17, 0.94) 60%,
       var(--deep-ocean-2) 100%
     ),
-    url("ChatGPT Image 2026年7月24日 05_08_43.png");
+    url("/ChatGPT Image 2026年7月24日 05_08_43.png");
   background-size: cover;
   background-position: center 30%;
   padding: 120px 6vw 50px;
