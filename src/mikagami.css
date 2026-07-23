@@ -88,7 +88,7 @@
 }
 .mikagami .logo-title {
   display: inline-block;
-  transform: translateX(0.2em);
+  transform: translateX(0.5em);
 }
 .mikagami .logo .en {
   font-size: 10px;
