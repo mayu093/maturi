@@ -255,7 +255,10 @@ export default function MikagamiPage({ onReserve }: MikagamiPageProps) {
           </div>
         </div>
         <div className="footer-notes">
-          <p>雨天決行・荒天中止</p>
+          <p>
+            雨天決行・荒天中止
+            ※本サイトは学習目的で制作した架空のイベントサイトです。
+          </p>
           <div className="copyright">
             © 2026 水鏡の夏夜祭実行委員会 — MIZUKAGAMI ALL RIGHTS RESERVED.
           </div>
