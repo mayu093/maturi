@@ -596,8 +596,11 @@
   font-weight: 300;
 }
 .mikagami .ticket-card .buy {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+  min-height: 46px;
   padding: 13px;
   border-radius: 2px;
   font-size: 13px;
