@@ -1,1 +1,1 @@
-{"root":["./src/mikagamipage.tsx","./src/main.tsx","./src/vite-env.d.ts"],"errors":true,"version":"5.9.3"}
+{"root":["./src/completepage.tsx","./src/mikagamipage.tsx","./src/playground.tsx","./src/ticketpage.tsx","./src/main.tsx","./src/vite-env.d.ts"],"version":"5.9.3"}

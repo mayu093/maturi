@@ -1,7 +1,11 @@
 import { useEffect, useState } from "react";
 import "./mikagami.css";
 
-export default function MikagamiPage() {
+type MikagamiPageProps = {
+  onReserve?: () => void;
+};
+
+export default function MikagamiPage({ onReserve }: MikagamiPageProps) {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
@@ -220,7 +224,14 @@ export default function MikagamiPage() {
               <div className="desc">
                 海上BAR Aquariaの利用権付き。VIP駐車場のご予約も可能です。
               </div>
-              <a className="buy" href="#">
+              <a
+                className="buy"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  onReserve?.();
+                }}
+              >
                 予約する
               </a>
             </div>
@@ -230,7 +241,14 @@ export default function MikagamiPage() {
               <div className="desc">
                 全ての光のアート・タイムスケジュールをお楽しみいただけます。
               </div>
-              <a className="buy" href="#">
+              <a
+                className="buy"
+                href="#"
+                onClick={(e) => {
+                  e.preventDefault();
+                  onReserve?.();
+                }}
+              >
                 予約する
               </a>
             </div>
