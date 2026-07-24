@@ -613,6 +613,7 @@
 .mikagami .ticket-card.vip .buy {
   border-color: var(--moon-gold);
   color: var(--moon-gold);
+  min-height: 46px;
 }
 .mikagami .ticket-card .buy:hover {
   background: var(--water-light);
